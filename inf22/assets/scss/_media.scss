@@ -1,0 +1,9 @@
+
+@mixin mediaQueries {
+    @media screen and (max-width: 699px) {
+    
+        .about-sec{
+            grid-template-columns: 1fr;
+        }
+    }
+}
